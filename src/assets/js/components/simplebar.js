@@ -1,11 +1,11 @@
-import SimpleBar from 'simplebar';
+import SimpleBar from "simplebar";
 
 (function () {
-    const simpleBars = document.querySelectorAll('[data-pixr-simplebar]') || [];
+  const simpleBars = document.querySelectorAll("[data-pixr-simplebar]") || [];
 
-    simpleBars.forEach((simplebar) => {
-        new SimpleBar(simplebar, {
-            autoHide: false
-        })
+  simpleBars.forEach((simplebar) => {
+    new SimpleBar(simplebar, {
+      autoHide: false,
     });
+  });
 })();
